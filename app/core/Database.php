@@ -47,6 +47,7 @@ class Database
                     break;
                 default:
                     $type = PDO::PARAM_STR;
+                    break;
             }
         }
 
